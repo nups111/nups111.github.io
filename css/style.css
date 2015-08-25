@@ -1,0 +1,14 @@
+body {
+    color: black;
+}
+
+h1 {
+    color: blue;
+}
+.jumbotron {
+  background-image:url(../images/image-up.jpg);
+  height: 500px;
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
