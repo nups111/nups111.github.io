@@ -1,14 +1,21 @@
 body {
     color: black;
+    opacity: 1;
 }
 
 h1 {
-    color: blue;
+    color: black;
 }
+
+h4 {
+    color: yellow;
+}
+
 .jumbotron {
-  background-image:url(../images/image-up.jpg);
+  background-image:url(../images/DSC_0483.jpg);
   height: 500px;
   width: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.6;
 }
