@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #9966CC;
+    color: #CC66CC;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -14,7 +14,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #9966CC;
+    color: yellowgreen;
 }
 
 p {
@@ -77,9 +77,9 @@ header .header-content .header-content-inner p {
         max-width: 1000px;
     }
 
-	header .header-content .header-content-inner h1 {
-    	font-size: 100px;
-		}
+    header .header-content .header-content-inner h1 {
+        font-size: 80px;
+        }
 
     header .header-content .header-content-inner p {
         margin-right: auto;
@@ -89,9 +89,37 @@ header .header-content .header-content-inner p {
     }
 }
 
+.navbar-header-projects {
+    text-align: center;
+    color: #000;
+}
+
+
 .section-heading {
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+.intro {
+    color: #fff;
+    background-color: #CC66CC;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.content {
+    padding: 20px 0 40px;
+}
+
+.content-2 {
+    padding: 20px 0 40px;
+    color: #fff;
+    background-color: #585858;
+}
+
+.content-3 {
+    padding: 20px 0 40px;
+    text-align: center;
 }
 
 .promo,
@@ -101,7 +129,7 @@ header .header-content .header-content-inner p {
 .promo a:hover,
 .promo a:active {
     color: white;
-	text-shadow: 0px 0px 40px black;
+    text-shadow: 0px 0px 40px black;
     text-decoration: none;
 }
 
@@ -124,38 +152,49 @@ header .header-content .header-content-inner p {
 }
 
 .item-1 {
-	background: url('../images/writing.jpg');
-	}
-	
+    background: url('../images/writing.jpg');
+    }
+    
 .item-2 {
-	background: url('../images/work.jpg');
-	}
-	
+    background: url('../images/work.jpg');
+    }
+    
 .item-3 {
-	background: url('../images/pencil_sharpener.jpg');
-	}
-		
+    background: url('../images/pencil_sharpener.jpg');
+    }
+        
 .item-1,
 .item-2,
 .item-3 {
-	background-size: cover;
-	background-position: 50% 50%;
-	}
+    background-size: cover;
+    background-position: 50% 50%;
+    }
 
 .page-footer {
-	text-align: center;
-	}
+    text-align: center;
+    }
 
 .page-footer .contact {
-	padding: 20px 0;
-	background-color: #9966CC;
-	color: #fff;
-	}
-		
+    padding: 20px 0;
+    background-color: #CC66CC;
+    color: #fff;
+    }
+
+.page-footer .contact p {
+    font-size: 22px;
+    font-weight: 300;
+    }
+    
+.content-3 .glyphicon,  
+.page-footer .contact .glyphicon {
+    font-size: 32px;
+    font-weight: 700;
+    }
+        
 .page-footer .small-print {
-	padding: 50px 0 40px;
-	font-weight: 300;
-	}
+    padding: 50px 0 40px;
+    font-weight: 300;
+    }
 
 .text-light {
     color: rgba(255,255,255,.7);
@@ -170,7 +209,7 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: #9966CC;
+    color: #CC66CC;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -180,23 +219,24 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
-    color: #222;
+    color: #000;
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #9966CC;
+    color: #CC66CC;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9966CC!important;
+    color: #CC66CC!important;
     background-color: transparent;
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
+    color: #000!important;
 }
 
 @media(min-width:768px) {
@@ -212,17 +252,17 @@ header .header-content .header-content-inner p {
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #000;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: yellowgreen;
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #000;
     }
 
     .navbar-default.affix {
@@ -233,7 +273,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         letter-spacing: 0;
-        color: #9966CC;
+        color: #CC66CC;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -243,12 +283,12 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: #000;
     }
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9966CC;
+        color: #CC66CC;
     }
 }
 
@@ -306,9 +346,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #9966CC;
+    border-color: #CC66CC;
     color: #fff;
-    background-color: #9966CC;
+    background-color: #CC66CC;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -320,9 +360,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: limegreen;
+    border-color: yellowgreen;
     color: #fff;
-    background-color: limegreen;
+    background-color: yellowgreen;
 }
 
 .btn-primary:active,
@@ -349,12 +389,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #9966CC;
-    background-color: #9966CC;
+    border-color: #CC66CC;
+    background-color: #CC66CC;
 }
 
 .btn-primary .badge {
-    color: #9966CC;
+    color: #CC66CC;
     background-color: #fff;
 }
 
@@ -365,7 +405,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-lg {
-    padding: 15px 30px;
+    padding: 10px 30px;
 }
 
 ::-moz-selection {
@@ -391,13 +431,15 @@ img::-moz-selection {
 }
 
 .text-primary {
-    color: #9966CC;
+    color: #CC66CC;
 }
 
 .bg-primary {
-    background-color: #9966CC;
+    background-color: #CC66CC;
 }
 
 .spacing {
     padding: 20px 0;
-    }
+
+}
+
