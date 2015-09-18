@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #CC66CC;
+    color: #6666FF;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -20,6 +20,7 @@ a:focus {
 p {
     font-size: 16px;
     line-height: 1.5;
+    margin: 0; 
 }
 
 header {
@@ -102,7 +103,7 @@ header .header-content .header-content-inner p {
 
 .intro {
     color: #fff;
-    background-color: #CC66CC;
+    background-color: #6666FF;
     padding: 70px 0;
     text-align: center;
 }
@@ -114,7 +115,7 @@ header .header-content .header-content-inner p {
 .content-2 {
     padding: 20px 0 40px;
     color: #fff;
-    background-color: #585858;
+    background-color: #C0C0C0;
 }
 
 .content-3 {
@@ -176,7 +177,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
     padding: 20px 0;
-    background-color: #CC66CC;
+    background-color: #6666FF;
     color: #fff;
     }
 
@@ -209,7 +210,7 @@ header .header-content .header-content-inner p {
 }
 
 .navbar-default .navbar-header .navbar-brand {
-    color: #CC66CC;
+    color: #6666FF;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -224,12 +225,12 @@ header .header-content .header-content-inner p {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #CC66CC;
+    color: #6666FF;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #CC66CC!important;
+    color: #6666FF!important;
     background-color: transparent;
 }
 
@@ -273,7 +274,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         letter-spacing: 0;
-        color: #CC66CC;
+        color: #6666FF;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -288,7 +289,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #CC66CC;
+        color: #6666FF;
     }
 }
 
@@ -346,9 +347,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #CC66CC;
+    border-color: #6666FF;
     color: #fff;
-    background-color: #CC66CC;
+    background-color: #6666FF;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -389,12 +390,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #CC66CC;
-    background-color: #CC66CC;
+    border-color: #6666FF;
+    background-color: #6666FF;
 }
 
 .btn-primary .badge {
-    color: #CC66CC;
+    color: #6666FF;
     background-color: #fff;
 }
 
@@ -431,15 +432,14 @@ img::-moz-selection {
 }
 
 .text-primary {
-    color: #CC66CC;
+    color: #6666FF;
 }
 
 .bg-primary {
-    background-color: #CC66CC;
+    background-color: #6666FF;
 }
 
 .spacing {
     padding: 20px 0;
 
 }
-
